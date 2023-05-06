@@ -1,0 +1,11 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* 我是个注释 */
+body{
+	height: 100vh;
+	padding: 20px;
+	box-sizing: border-box;
+	background:linear-gradient(to right bottom, rgb(148, 213, 201), rgb(167, 151, 104));
+}

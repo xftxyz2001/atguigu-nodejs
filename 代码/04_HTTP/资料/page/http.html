@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>http</title>
+	<style>
+		div {
+			position: absolute;
+		}
+
+		#client {
+			width: 200px;
+			height: 100px;
+			border: solid 1px blue;
+			text-align: center;
+			line-height: 100px;
+			top: 300px;
+			left: 100px;
+		}
+
+		#server {
+			width: 200px;
+			height: 100px;
+			border: solid 1px blue;
+			text-align: center;
+			line-height: 100px;
+			top: 30px;
+			right: 100px;
+		}
+
+		#line-1 {
+			height: 2px;
+			transform: rotate(-12deg);
+			width: 780px;
+			top: 200px;
+			left: 300px;
+		}
+
+		#line-2 {
+			height: 2px;
+			transform: rotate(-12deg);
+			width: 780px;
+			top: 250px;
+			left: 300px;
+		}
+
+		.req {
+			border-top: solid 2px #aea;
+		}
+
+		.res {
+			border-top: solid 2px #eab;
+		}
+
+		#first-request {
+			border: solid 2px #aea;
+			padding: 10px;
+			left: 120px;
+			top: 150px;
+		}
+
+		#first-response {
+			border: solid 2px #eab;
+			padding: 10px;
+			left: 1000px;
+			top: 200px;
+		}
+
+		#line-3 {
+			height: 2px;
+			transform: rotate(-12deg);
+			width: 780px;
+			top: 900px;
+			left: 300px;
+		}
+
+		#line-4 {
+			height: 2px;
+			transform: rotate(-12deg);
+			width: 780px;
+			top: 950px;
+			left: 300px;
+		}
+
+		#second-request {
+			border: solid 2px #aea;
+			padding: 10px;
+			left: 120px;
+			top: 850px;
+		}
+
+		#second-response {
+			border: solid 2px #eab;
+			padding: 10px;
+			left: 1000px;
+			top: 900px;
+		}
+
+		#line-5 {
+			height: 2px;
+			transform: rotate(-12deg);
+			width: 780px;
+			top: 1400px;
+			left: 300px;
+		}
+
+		#line-6 {
+			height: 2px;
+			transform: rotate(-12deg);
+			width: 780px;
+			top: 1450px;
+			left: 300px;
+		}
+
+		#third-request {
+			border: solid 2px #aea;
+			padding: 10px;
+			left: 120px;
+			top: 1350px;
+		}
+
+		#third-response {
+			border: solid 2px #eab;
+			padding: 10px;
+			left: 1000px;
+			top: 1400px;
+		}
+
+		#line-7 {
+			height: 2px;
+			transform: rotate(-12deg);
+			width: 780px;
+			top: 1900px;
+			left: 300px;
+		}
+
+		#line-8 {
+			height: 2px;
+			transform: rotate(-12deg);
+			width: 780px;
+			top: 1950px;
+			left: 300px;
+		}
+
+		#four-request {
+			border: solid 2px #aea;
+			padding: 10px;
+			left: 120px;
+			top: 1850px;
+		}
+
+		#four-response {
+			border: solid 2px #eab;
+			padding: 10px;
+			left: 1000px;
+			top: 1900px;
+		}
+
+		#start {
+			width: 100px;
+			height: 50px;
+			text-align: center;
+			line-height: 50px;
+			border: solid 1px #ead;
+			left: 10px;
+			top: 10px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+
+<body style="height:auto;">
+	<div id="start">开始</div>
+	<div id="client">浏览器</div>
+	<div id="server">服务器(apache,nginx,node)</div>
+
+	<!-- 第一次请求 start -->
+	<div id="line-1" class="req"></div>
+	<div id="line-2" class="res"></div>
+
+	<div id="first-request" style="display:none">
+		<pre>
+GET /index.html HTTP/1.1
+Host: www.atguigu.com
+User-agent: chrome 
+refer: www.atguigu.com
+</pre>
+	</div>
+
+
+	<div id="first-response" style="display:none">
+		<pre id="res-1">
+
+</pre>
+	</div>
+
+	<!-- 第一次请求 end -->
+
+	<!-- 第二次请求 start -->
+	<div id="line-3" class="req"></div>
+	<div id="line-4" class="res"></div>
+
+	<div id="second-request" style="display:none">
+		<pre>
+GET /css/index.css HTTP/1.1
+Host: www.atguigu.com
+User-agent: chrome
+refer: www.atguigu.com
+</pre>
+	</div>
+
+
+	<div id="second-response" style="display:none">
+		<pre id="res-2">
+
+</pre>
+	</div>
+	<!-- 第二次请求 end -->
+
+
+	<!-- 第三次请求 start -->
+	<div id="line-5" class="req"></div>
+	<div id="line-6" class="res"></div>
+
+	<div id="third-request" style="display:none">
+		<pre>
+GET /images/h5.png HTTP/1.1
+Host: www.atguigu.com
+User-agent: chrome
+refer: www.atguigu.com
+</pre>
+	</div>
+
+
+	<div id="third-response" style="display:none">
+		<pre id="res-3">
+
+</pre>
+	</div>
+	<!-- 第三次请求 end -->
+
+
+	<!-- 第四次请求 start -->
+	<div id="line-7" class="req"></div>
+	<div id="line-8" class="res"></div>
+
+	<div id="four-request" style="display:none">
+		<pre>
+GET /js/index.js HTTP/1.1
+Host: www.atguigu.com
+User-agent: chrome
+refer: www.atguigu.com
+</pre>
+	</div>
+
+
+	<div id="four-response" style="display:none">
+		<pre id="res-4">
+
+</pre>
+	</div>
+	<!-- 第四次请求 end -->
+	<script src="./js/jquery.js"></script>
+	<script src="./js/show.js"> </script>
+
+</body>
+
+</html>
