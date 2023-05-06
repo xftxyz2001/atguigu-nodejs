@@ -128,3 +128,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Large files
+代码/02_fs文件系统/资料/笑看风云.mp4
