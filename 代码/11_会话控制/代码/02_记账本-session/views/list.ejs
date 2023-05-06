@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet" />
+  <style>
+    label {
+      font-weight: normal;
+    }
+
+    .panel-body .glyphicon-remove {
+      display: none;
+    }
+
+    .panel-body:hover .glyphicon-remove {
+      display: inline-block
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+        <div class="row text-right">
+          <div class="col-xs-12" style="padding-top: 20px">
+            <form method="post" action="/logout">
+              <button class="btn btn-danger">退出</button>
+            </form>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <h2 class="col-xs-6">记账本</h2>
+          <h2 class="col-xs-6 text-right"><a href="/account/create" class="btn btn-primary">添加账单</a></h2>
+        </div>
+        <hr />
+        <div class="accounts">
+          <% accounts.forEach(item=> { %>
+            <div class="panel <%= item.type=== -1 ? 'panel-danger' : 'panel-success'  %>">
+              <div class="panel-heading">
+                <%= moment(item.time).format('YYYY-MM-DD') %>
+              </div>
+              <div class="panel-body">
+                <div class="col-xs-6">
+                  <%= item.title %>
+                </div>
+                <div class="col-xs-2 text-center">
+                  <span class="label <%= item.type=== -1 ? 'label-warning' : 'label-success'  %>">
+                    <%= item.type===-1 ? '支出' : '收入' %>
+                  </span>
+                </div>
+                <div class="col-xs-2 text-right">
+                  <%= item.account %> 元
+                </div>
+                <div class="col-xs-2 text-right">
+                  <a class="delBtn" href="/account/<%= item._id %>">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <% }) %>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+  //获取所有的 delBtn
+  let delBtns = document.querySelectorAll('.delBtn');
+
+  //绑定事件
+  delBtns.forEach(item => {
+    item.addEventListener('click', function (e) {
+      if (confirm('您确定要删除该文档么??')) {
+        return true;
+      } else {
+        //阻止默认行为
+        e.preventDefault();
+      }
+    });
+  })
+</script>
+
+</html>
