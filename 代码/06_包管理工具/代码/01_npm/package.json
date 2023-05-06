@@ -1,0 +1,21 @@
+{
+  "name": "01_npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node ./03_http.js",
+    "start": "node ./03_http.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^4.1.3"
+  },
+  "dependencies": {
+    "atguigu_math": "^1.0.0",
+    "uniq": "^1.0.1"
+  }
+}
