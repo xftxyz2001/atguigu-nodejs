@@ -1,0 +1,564 @@
+{
+  "singers": [
+    {
+      "singer_name": "周杰伦",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M0000025NhlN2yWrP4.webp",
+      "other_name": "Jay Chou",
+      "singer_id": 4558,
+      "id": 1
+    },
+    {
+      "singer_name": "林俊杰",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000001BLpXF2DyJe2.webp",
+      "other_name": "JJ Lin",
+      "singer_id": 4286,
+      "id": 2
+    },
+    {
+      "singer_name": "G.E.M. 邓紫棋",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000001fNHEf1SFEFN.webp",
+      "other_name": "Gloria Tang",
+      "singer_id": 13948,
+      "id": 3
+    },
+    {
+      "singer_name": "薛之谦",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000002J4UUk29y8BY.webp",
+      "other_name": "",
+      "singer_id": 5062,
+      "id": 4
+    },
+    {
+      "singer_name": "陈奕迅",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000003Nz2So3XXYek.webp",
+      "other_name": "Eason Chan",
+      "singer_id": 143,
+      "id": 5
+    },
+    {
+      "singer_name": "告五人",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000002pfVN53lKI7x.webp",
+      "other_name": "Accusefive",
+      "singer_id": 1400123,
+      "id": 6
+    },
+    {
+      "singer_name": "王靖雯",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000002YetSZ06c9c9.webp",
+      "other_name": "",
+      "singer_id": 6016498,
+      "id": 7
+    },
+    {
+      "singer_name": "李荣浩",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000000aHmbL2aPXWH.webp",
+      "other_name": "Ronghao Li",
+      "singer_id": 60505,
+      "id": 8
+    },
+    {
+      "singer_name": "蔡健雅",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000000hNnWC3kko2c.webp",
+      "other_name": "Tanya Chua",
+      "singer_id": 112,
+      "id": 9
+    },
+    {
+      "singer_name": "王源",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000000IBYF50SRnXP.webp",
+      "other_name": "",
+      "singer_id": 161301,
+      "id": 10
+    },
+    {
+      "singer_name": "许嵩",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000000CK5xN3yZDJt.webp",
+      "other_name": "",
+      "singer_id": 7221,
+      "id": 11
+    },
+    {
+      "singer_name": "苏星婕",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000002lKaDq2lLLtk.webp",
+      "other_name": "",
+      "singer_id": 7588624,
+      "id": 12
+    },
+    {
+      "singer_name": "周深",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000003fA5G40k6hKc.webp",
+      "other_name": "",
+      "singer_id": 199509,
+      "id": 13
+    },
+    {
+      "singer_name": "队长",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000002rHyN14UyyaW.webp",
+      "other_name": "",
+      "singer_id": 2150959,
+      "id": 14
+    },
+    {
+      "singer_name": "时代少年团",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M0000039JTTG0s4SCv.webp",
+      "other_name": "TNT",
+      "singer_id": 4553007,
+      "id": 15
+    },
+    {
+      "singer_name": "程响",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000003iPzNg35cWzp.webp",
+      "other_name": "",
+      "singer_id": 4246,
+      "id": 16
+    },
+    {
+      "singer_name": "BLACKPINK",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000003DBAjk2MMfhR.webp",
+      "other_name": "",
+      "singer_id": 1190986,
+      "id": 17
+    },
+    {
+      "singer_name": "任然",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M00000067r4p0wBDDN.webp",
+      "other_name": "",
+      "singer_id": 29858,
+      "id": 18
+    },
+    {
+      "singer_name": "BEYOND",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000002pUZT93gF4Cu.webp",
+      "other_name": "",
+      "singer_id": 2,
+      "id": 19
+    },
+    {
+      "singer_name": "五月天",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000000Sp0Bz4JXH0o.webp",
+      "other_name": "Mayday",
+      "singer_id": 74,
+      "id": 20
+    },
+    {
+      "singer_name": "Zyboy忠宇",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000002bX9V73wkzzM.webp",
+      "other_name": "",
+      "singer_id": 5440133,
+      "id": 21
+    },
+    {
+      "singer_name": "蓝心羽",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000003Rc7tU01TXKL.webp",
+      "other_name": "",
+      "singer_id": 2614601,
+      "id": 22
+    },
+    {
+      "singer_name": "毛不易",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000001BHDR33FZVZ0.webp",
+      "other_name": "",
+      "singer_id": 1507534,
+      "id": 23
+    },
+    {
+      "singer_name": "汪苏泷",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000001z2JmX09LLgL.webp",
+      "other_name": "Silence Wang",
+      "singer_id": 3954,
+      "id": 24
+    },
+    {
+      "singer_name": "张杰",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000002azErJ0UcDN6.webp",
+      "other_name": "Jason Zhang",
+      "singer_id": 6499,
+      "id": 25
+    },
+    {
+      "singer_name": "王菲",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000000GDDuQ3sGQiT.webp",
+      "other_name": "Faye Wong",
+      "singer_id": 264,
+      "id": 26
+    },
+    {
+      "singer_name": "郭顶",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M0000002ankM4d5yZI.webp",
+      "other_name": "",
+      "singer_id": 4418,
+      "id": 27
+    },
+    {
+      "singer_name": "旺仔小乔",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M0000045G50v35VUMG.webp",
+      "other_name": "",
+      "singer_id": 5986851,
+      "id": 28
+    },
+    {
+      "singer_name": "张碧晨",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M0000003ZpE43ypssl.webp",
+      "other_name": "Diamond",
+      "singer_id": 199515,
+      "id": 29
+    },
+    {
+      "singer_name": "王力宏",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000001JDzPT3JdvqK.webp",
+      "other_name": "Leehom Wang",
+      "singer_id": 265,
+      "id": 30
+    },
+    {
+      "singer_name": "周传雄",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000004NMZuf2BLjg8.webp",
+      "other_name": "Steve Chou",
+      "singer_id": 4365,
+      "id": 31
+    },
+    {
+      "singer_name": "李宇春",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000002ZOuVm3Qn20Y.webp",
+      "other_name": "Chris Lee",
+      "singer_id": 4615,
+      "id": 32
+    },
+    {
+      "singer_name": "张韶涵",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000002raUWw3PXdkT.webp",
+      "other_name": "Angela Zhang",
+      "singer_id": 224,
+      "id": 33
+    },
+    {
+      "singer_name": "en",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000001IkitI4Gcu5u.webp",
+      "other_name": "",
+      "singer_id": 3344766,
+      "id": 34
+    },
+    {
+      "singer_name": "孙燕姿",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000001pWERg3vFgg8.webp",
+      "other_name": "",
+      "singer_id": 109,
+      "id": 35
+    },
+    {
+      "singer_name": "七叔（叶泽浩）",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000004gGNH91beMrM.webp",
+      "other_name": "",
+      "singer_id": 4605082,
+      "id": 36
+    },
+    {
+      "singer_name": "邓寓君(等什么君)",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000001B2drs3Jq4EX.webp",
+      "other_name": "",
+      "singer_id": 2907567,
+      "id": 37
+    },
+    {
+      "singer_name": "戴羽彤",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000001yfOTl2jS0xm.webp",
+      "other_name": "",
+      "singer_id": 3158196,
+      "id": 38
+    },
+    {
+      "singer_name": "Taylor Swift (泰勒·斯威夫特)",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000000qrPik2w6lDr.webp",
+      "other_name": "泰勒·斯威夫特",
+      "singer_id": 11921,
+      "id": 39
+    },
+    {
+      "singer_name": "EXO (엑소)",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000001QVwtq3l8cKC.webp",
+      "other_name": "엑소",
+      "singer_id": 38578,
+      "id": 40
+    },
+    {
+      "singer_name": "YOASOBI (ヨアソビ)",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000001Erp1x1jDOoQ.webp",
+      "other_name": "ヨアソビ",
+      "singer_id": 4731886,
+      "id": 41
+    },
+    {
+      "singer_name": "张学友",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000004Be55m1SJaLk.webp",
+      "other_name": "Jacky Cheung",
+      "singer_id": 174,
+      "id": 42
+    },
+    {
+      "singer_name": "BIGBANG (빅뱅)",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000004AlfUb0cVkN1.webp",
+      "other_name": "빅뱅",
+      "singer_id": 11733,
+      "id": 43
+    },
+    {
+      "singer_name": "莫文蔚",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000000cISVf2QqLc6.webp",
+      "other_name": "Karen Mok",
+      "singer_id": 54,
+      "id": 44
+    },
+    {
+      "singer_name": "阿梨粤",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000002ffRcI0XN8px.webp",
+      "other_name": "",
+      "singer_id": 4055289,
+      "id": 45
+    },
+    {
+      "singer_name": "梦然",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000004dr7ZS36C2B1.webp",
+      "other_name": "Miya",
+      "singer_id": 43665,
+      "id": 46
+    },
+    {
+      "singer_name": "徐佳莹",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000002LZVMH0zc8F4.webp",
+      "other_name": "LALA Xu",
+      "singer_id": 16244,
+      "id": 47
+    },
+    {
+      "singer_name": "IN-K",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000002yupVT2XEFaA.webp",
+      "other_name": "",
+      "singer_id": 6597642,
+      "id": 48
+    },
+    {
+      "singer_name": "Imagine Dragons (梦龙)",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000003W0GsQ2bAxVU.webp",
+      "other_name": "梦龙",
+      "singer_id": 27158,
+      "id": 49
+    },
+    {
+      "singer_name": "萧亚轩",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000002tkdEU4gLVqO.webp",
+      "other_name": "Elva Hsiao",
+      "singer_id": 165,
+      "id": 50
+    },
+    {
+      "singer_name": "小阿七",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000000DT3kC3IGHjR.webp",
+      "other_name": "",
+      "singer_id": 3127723,
+      "id": 51
+    },
+    {
+      "singer_name": "鹿晗",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000001SqkF53OEhdO.webp",
+      "other_name": "",
+      "singer_id": 204664,
+      "id": 52
+    },
+    {
+      "singer_name": "不是花火呀",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000003LABmP0dTIWp.webp",
+      "other_name": "",
+      "singer_id": 6547408,
+      "id": 53
+    },
+    {
+      "singer_name": "赵雷",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000001Lr98T0yEWAk.webp",
+      "other_name": "",
+      "singer_id": 40449,
+      "id": 54
+    },
+    {
+      "singer_name": "陶喆",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000002cK0F12szD9T.webp",
+      "other_name": "David Zee Tao",
+      "singer_id": 101,
+      "id": 55
+    },
+    {
+      "singer_name": "刘大壮",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000002moRNc1l02Dr.webp",
+      "other_name": "",
+      "singer_id": 3487463,
+      "id": 56
+    },
+    {
+      "singer_name": "王忻辰",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000004W8PqQ0EYrEr.webp",
+      "other_name": "",
+      "singer_id": 202043,
+      "id": 57
+    },
+    {
+      "singer_name": "Alan Walker (艾兰·沃克)",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M0000020PeOh4ZaCw1.webp",
+      "other_name": "艾兰·沃克",
+      "singer_id": 944940,
+      "id": 58
+    },
+    {
+      "singer_name": "李克勤",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000003nS2v740Lxcw.webp",
+      "other_name": "Hacken Lee",
+      "singer_id": 235,
+      "id": 59
+    },
+    {
+      "singer_name": "阿YueYue",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M0000009dWas0XxekN.webp",
+      "other_name": "",
+      "singer_id": 1517630,
+      "id": 60
+    },
+    {
+      "singer_name": "程佳佳",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000003gFfHo4H6AHY.webp",
+      "other_name": "",
+      "singer_id": 3417721,
+      "id": 61
+    },
+    {
+      "singer_name": "A-Lin",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000003ArN8Z0WpjTz.webp",
+      "other_name": "黄丽玲",
+      "singer_id": 6028,
+      "id": 62
+    },
+    {
+      "singer_name": "陈慧娴",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000000JvETZ3tOrPR.webp",
+      "other_name": "Priscilla Chan",
+      "singer_id": 228,
+      "id": 63
+    },
+    {
+      "singer_name": "古巨基",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000000NFT2p1GbnPB.webp",
+      "other_name": "Leo Ku",
+      "singer_id": 3347,
+      "id": 64
+    },
+    {
+      "singer_name": "张靓颖",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000000aw4WC2EQYTv.webp",
+      "other_name": "Jane Zhang",
+      "singer_id": 4607,
+      "id": 65
+    },
+    {
+      "singer_name": "就是南方凯",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000002zPxu14crYMp.webp",
+      "other_name": "",
+      "singer_id": 5226906,
+      "id": 66
+    },
+    {
+      "singer_name": "王心凌",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000003RVAdJ1YT5AI.webp",
+      "other_name": "Cyndi Wang",
+      "singer_id": 4367,
+      "id": 67
+    },
+    {
+      "singer_name": "刘德华",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000003aQYLo2x8izP.webp",
+      "other_name": "Andy Lau",
+      "singer_id": 163,
+      "id": 68
+    },
+    {
+      "singer_name": "虎二",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M0000030BYDJ2YJih8.webp",
+      "other_name": "Tiger Wang",
+      "singer_id": 1296832,
+      "id": 69
+    },
+    {
+      "singer_name": "张远",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000004PjYVG2cjyBK.webp",
+      "other_name": "Bird Zhang",
+      "singer_id": 11455,
+      "id": 70
+    },
+    {
+      "singer_name": "陈粒",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000004WgCsE3KBddt.webp",
+      "other_name": "",
+      "singer_id": 940748,
+      "id": 71
+    },
+    {
+      "singer_name": "王小帅",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M0000013xwfx03qjvN.webp",
+      "other_name": "",
+      "singer_id": 3133695,
+      "id": 72
+    },
+    {
+      "singer_name": "BY2",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000000Z1Ow71FFutX.webp",
+      "other_name": "",
+      "singer_id": 13578,
+      "id": 73
+    },
+    {
+      "singer_name": "ycccc",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000001Jnlli222xTo.webp",
+      "other_name": "",
+      "singer_id": 2911372,
+      "id": 74
+    },
+    {
+      "singer_name": "林宥嘉",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000001f0VyZ1hmWZ1.webp",
+      "other_name": "Yoga Lin",
+      "singer_id": 11606,
+      "id": 75
+    },
+    {
+      "singer_name": "王杰",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000003NKwHr46UKeR.webp",
+      "other_name": "Dave Wang",
+      "singer_id": 139,
+      "id": 76
+    },
+    {
+      "singer_name": "杨宗纬",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000003tMm0y0TuewY.webp",
+      "other_name": "Aska Yang",
+      "singer_id": 11608,
+      "id": 77
+    },
+    {
+      "singer_name": "街道办GDC",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000003RGAyU46oc94.webp",
+      "other_name": "",
+      "singer_id": 1399808,
+      "id": 78
+    },
+    {
+      "singer_name": "颜人中",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M0000037vppH2drqM2.webp",
+      "other_name": "ele yan",
+      "singer_id": 3062965,
+      "id": 79
+    },
+    {
+      "singer_name": "Kirsty刘瑾睿",
+      "singer_pic": "http://y.gtimg.cn/music/photo_new/T001R150x150M000002cJar62Es6zH.webp",
+      "other_name": "",
+      "singer_id": 3546632,
+      "id": 80
+    }
+  ]
+}
